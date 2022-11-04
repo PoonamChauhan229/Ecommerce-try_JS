@@ -1,0 +1,57 @@
+[
+    {
+        "electonics_id": 1,
+        "product_name": "WD 2TB Elements Portable External Hard Drive - USB 3.0 ",
+        "category": "Electronics",
+        "category_id": 2,
+        "Price": 1000,
+        "image": "https://i.ibb.co/gtbXyCH/7.jpg",
+        "Color": "Black",
+        "Brand": "Sony",
+        "DayDeals":1
+    },
+    {
+        "electonics_id": 2,
+        "product_name": "SanDisk SSD PLUS 1TB Internal SSD - SATA III 6 Gb/s",
+        "category": "Electronics",
+        "category_id": 2,
+        "Price": 1000,
+        "image": "https://i.ibb.co/hKXcHyb/8.jpg",
+        "Color": "Black",
+        "Brand": "Sandisk",
+        "DayDeals":1
+    },
+    {
+        "electonics_id": 3,
+        "product_name": "WD 4TB Gaming Drive Works with Playstation 4 Portable External Hard Drive",
+        "category": "Electronics",
+        "category_id": 2,
+        "Price": 1000,
+        "image": "https://i.ibb.co/nDb4jcw/9.jpg",
+        "Color": "Black",
+        "Brand": "Sandisk",
+        "DayDeals":1
+    },
+    {
+        "electonics_id": 4,
+        "product_name": "Acer SB220Q bi 21.5 inches Full HD (1920 x 1080) IPS Ultra-Thin",
+        "category": "Electronics",
+        "category_id": 2,
+        "Price": 1000,
+        "image": "https://i.ibb.co/HXnFs3R/10.jpg",
+        "Color": "Black",
+        "Brand": "acer",
+        "DayDeals":1
+    },
+    {
+        "electonics_id": 5,
+        "product_name": "Samsung 49-Inch CHG90 144Hz Curved Gaming Monitor (LC49HG90DMNXZA) – Super Ultrawide Screen QLED ",
+        "category": "Electronics",
+        "category_id": 2,
+        "Price": 1000,
+        "image": "https://i.ibb.co/dKn2mXV/11.jpg",
+        "Color": "Black",
+        "Brand": "samsung",
+        "DayDeals":1
+    }
+]

@@ -1,0 +1,74 @@
+[
+    {
+        "fashion_id": 1,
+        "product_name": "Mens Casual Premium Slim Fit T-Shirts ",
+        "category": "Fashion",
+        "category_id": 1,
+        "Price": 1000,
+        "Size": "Small",
+        "image": "https://i.ibb.co/HFwXypY/1.jpg",
+        "Color": "White",
+        "Brand": "Only",
+        "DayDeals":1
+
+    },
+    {
+        "fashion_id": 2,
+        "product_name": "BIYLACLESEN Women's 3-in-1 Snowboard Jacket Winter Coats",
+        "category": "Fashion",
+        "category_id": 1,
+        "Price": 1000,
+        "Size": "Small",
+        "image": "https://i.ibb.co/qRGXgsv/2.jpg",
+        "Color": "Blue",
+        "Brand": "Levis",
+        "DayDeals":1
+    },
+    {
+        "fashion_id": 3,
+        "product_name": "Lock and Love Women's Removable Hooded Faux Leather Moto Biker Jacket",
+        "category": "Fashion",
+        "category_id": 1,
+        "Price": 1000,
+        "Size": "Small",
+        "image": "https://i.ibb.co/DtpksLM/3.jpg",
+        "Color": "Blue",
+        "Brand": "Levis",
+        "DayDeals":1
+    },
+    {
+        "fashion_id": 4,
+        "product_name": "Rain Jacket Women Windbreaker Striped Climbing Raincoats",
+        "category": "Fashion",
+        "category_id": 1,
+        "Price": 1000,
+        "Size": "Small",
+        "image": "https://i.ibb.co/6ng0Lrt/4.jpg",
+        "Color": "Blue",
+        "Brand": "People",
+        "DayDeals":1
+    },
+    {
+        "fashion_id": 5,
+        "product_name": "Mens Cotton Jacket",
+        "category": "Fashion",
+        "category_id": 1,
+        "Price": 1000,
+        "Size": "Small",
+        "image": "https://i.ibb.co/sP9LtgY/5.jpg",
+        "Color": "Gray",
+        "Brand": "Wetside",
+        "DayDeals":1
+    },
+    {
+        "fashion_id": 6,
+        "product_name": "Mens Casual Slim Fit",
+        "category": "Fashion",
+        "category_id": 1,
+        "Price": 1000,
+        "image": "https://i.ibb.co/C7ZYCzP/6.jpg",
+        "Color": "Navy Blue",
+        "Brand": "People",
+        "DayDeals":2
+    }
+]

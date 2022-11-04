@@ -1,0 +1,46 @@
+[
+    {
+        "mobiles_id": 1,
+        "product_name": "OnePlus 9 5G",
+        "category": "Mobiles",
+        "category_id": 3,
+        "Price": 1000,
+        "image": "https://i.ibb.co/SXsrHV2/12.jpg",
+        "Color": "Blue",
+        "Brand": "Oneplus",
+        "DayDeals":1
+    },
+    {
+        "mobiles_id": 2,
+        "product_name": "Iphone 13 mini",
+        "category": "Mobiles",
+        "category_id": 3,
+        "Price": 1000,
+        "image": "https://i.ibb.co/7zgR79d/13.jpg",
+        "Color": "Blue",
+        "Brand": "Apple",
+        "DayDeals":1
+    },
+    {
+        "mobiles_id": 3,
+        "product_name": "Samsung s21 ultra",
+        "category": "Mobiles",
+        "category_id": 3,
+        "Price": 1000,
+        "image": "https://i.ibb.co/pyPB1v4/14.jpg",
+        "Color": "Blue",
+        "Brand": "Samsung",
+        "DayDeals":1
+    },
+    {
+        "mobiles_id": 4,
+        "product_name": "xiomi mi 11",
+        "category": "Mobiles",
+        "category_id": 3,
+        "Price": 1000,
+        "image": "https://i.ibb.co/L86qLZF/15.jpg",
+        "Color": "Blue",
+        "Brand": "xiomi",
+        "DayDeals":2
+    }
+]

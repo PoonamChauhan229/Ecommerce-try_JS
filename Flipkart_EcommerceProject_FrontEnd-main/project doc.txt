@@ -1,0 +1,33 @@
+Flipkart ECOM Website
+
+This application should contain the following provisions to the user 
+
+
+Admin user
+
+Create an admin login with complete registration authorisation email verification and forgot password system
+
+The admin user should be able to create modify and delete
+ 
+Only admin should be allowed to add the products
+
+Admin users should be able to see what product is currently assigned to the client
+
+The admin user should have the option to see the purchase list of the user 
+
+After the payment success message should be sent to the client users
+
+Client user
+
+Create a user login with complete registration authorisation email verification and forgot password system
+
+Authenticator authenticated users are only allowed to book the products of the products differed with colours etc
+
+Product not available it should show out of stock
+
+Product is not a product it should display out of stock and user should not be allowed to order that product, instead "NOTIFY when availble" message should be displayed
+
+Integrate the razorpay checkout for payment
+
+
+Once the order is placed the admin and client User should get a notification

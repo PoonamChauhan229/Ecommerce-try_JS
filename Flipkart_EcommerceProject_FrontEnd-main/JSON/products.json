@@ -1,0 +1,172 @@
+    [
+    {
+        "product_id": 1,
+        "electonics_id": 1,
+        "product_name": "WD 2TB Elements Portable External Hard Drive - USB 3.0 ",
+        "category": "Electronics",
+        "category_id": 2,
+        "Price": 1000,
+        "image": "https://i.ibb.co/gtbXyCH/7.jpg",
+        "Color": "Black",
+        "Brand": "Sony"
+    },
+    {
+        "products_id": 2,
+        "electonics_id": 2,
+        "product_name": "SanDisk SSD PLUS 1TB Internal SSD - SATA III 6 Gb/s",
+        "category": "Electronics",
+        "category_id": 2,
+        "Price": 1000,
+        "image": "https://i.ibb.co/hKXcHyb/8.jpg",
+        "Color": "Black",
+        "Brand": "Sandisk"
+    },
+    {
+        "products_id": 3,
+        "electonics_id": 3,
+        "product_name": "WD 4TB Gaming Drive Works with Playstation 4 Portable External Hard Drive",
+        "category": "Electronics",
+        "category_id": 2,
+        "Price": 1000,
+        "image": "https://i.ibb.co/nDb4jcw/9.jpg",
+        "Color": "Black",
+        "Brand": "Sandisk"
+    },
+    {
+        "products_id": 4,
+        "electonics_id": 4,
+        "product_name": "Acer SB220Q bi 21.5 inches Full HD (1920 x 1080) IPS Ultra-Thin",
+        "category": "Electronics",
+        "category_id": 2,
+        "Price": 1000,
+        "image": "https://i.ibb.co/HXnFs3R/10.jpg",
+        "Color": "Black",
+        "Brand": "acer"
+    },
+    {
+        "products_id": 5,
+         "electonics_id": 5,
+        "product_name": "Samsung 49-Inch CHG90 144Hz Curved Gaming Monitor (LC49HG90DMNXZA) – Super Ultrawide Screen QLED ",
+        "category": "Electronics",
+        "category_id": 2,
+        "Price": 1000,
+        "image": "https://i.ibb.co/dKn2mXV/11.jpg",
+        "Color": "Black",
+        "Brand": "samsung"
+    },
+    {
+        "products_id": 6,
+        "fashion_id": 1,
+        "product_name": "Mens Casual Premium Slim Fit T-Shirts ",
+        "category": "Fashion",
+        "category_id": 1,
+        "Price": 1000,
+        "Size": "Small",
+        "image": "https://i.ibb.co/HFwXypY/1.jpg",
+        "Color": "White",
+        "Brand": "Only"
+    },
+    {
+        "products_id": 7,
+        "fashion_id": 2,
+        "product_name": "BIYLACLESEN Women's 3-in-1 Snowboard Jacket Winter Coats",
+        "category": "Fashion",
+        "category_id": 1,
+        "Price": 1000,
+        "Size": "Small",
+        "image": "https://i.ibb.co/qRGXgsv/2.jpg",
+        "Color": "Blue",
+        "Brand": "Levis"
+    },
+    {
+        "products_id": 8,
+        "fashion_id": 3,
+        "product_name": "Lock and Love Women's Removable Hooded Faux Leather Moto Biker Jacket",
+        "category": "Fashion",
+        "category_id": 1,
+        "Price": 1000,
+        "Size": "Small",
+        "image": "https://i.ibb.co/DtpksLM/3.jpg",
+        "Color": "Blue",
+        "Brand": "Levis"
+    },
+    {
+        "products_id": 9,
+        "fashion_id": 4,
+        "product_name": "Rain Jacket Women Windbreaker Striped Climbing Raincoats",
+        "category": "Fashion",
+        "category_id": 1,
+        "Price": 1000,
+        "Size": "Small",
+        "image": "https://i.ibb.co/6ng0Lrt/4.jpg",
+        "Color": "Blue",
+        "Brand": "People"
+    },
+    {
+        "products_id": 10,
+        "fashion_id": 5,
+        "product_name": "Mens Cotton Jacket",
+        "category": "Fashion",
+        "category_id": 1,
+        "Price": 1000,
+        "Size": "Small",
+        "image": "https://i.ibb.co/sP9LtgY/5.jpg",
+        "Color": "Gray",
+        "Brand": "Wetside"
+    },
+    {
+        "products_id": 11,
+        "fashion_id": 6,
+        "product_name": "Mens Casual Slim Fit",
+        "category": "Fashion",
+        "category_id": 1,
+        "Price": 1000,
+        "image": "https://i.ibb.co/C7ZYCzP/6.jpg",
+        "Color": "Navy Blue",
+        "Brand": "People"
+    },
+    {
+        "products_id": 12,
+        "mobiles_id": 1,
+        "product_name": "OnePlus 9 5G",
+        "category": "Mobiles",
+        "category_id": 3,
+        "Price": 1000,
+        "image": "https://i.ibb.co/SXsrHV2/12.jpg",
+        "Color": "Blue",
+        "Brand": "Oneplus"
+    },
+    {
+        "products_id": 13,
+        "mobiles_id": 2,
+        "product_name": "Iphone 13 mini",
+        "category": "Mobiles",
+        "category_id": 3,
+        "Price": 1000,
+        "image": "https://i.ibb.co/7zgR79d/13.jpg",
+        "Color": "Blue",
+        "Brand": "Apple"
+    },
+    {
+        "products_id": 14,
+        "mobiles_id": 3,
+        "product_name": "Samsung s21 ultra",
+        "category": "Mobiles",
+        "category_id": 3,
+        "Price": 1000,
+        "image": "https://i.ibb.co/pyPB1v4/14.jpg",
+        "Color": "Blue",
+        "Brand": "Samsung"
+    },
+    {
+        "products_id": 15,
+        "mobiles_id": 4,
+        "product_name": "xiomi mi 11",
+        "category": "Mobiles",
+        "category_id": 3,
+        "Price": 1000,
+        "image": "https://i.ibb.co/L86qLZF/15.jpg",
+        "Color": "Blue",
+        "Brand": "xiomi"
+    }
+]

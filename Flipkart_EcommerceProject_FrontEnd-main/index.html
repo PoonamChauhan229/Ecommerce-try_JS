@@ -1,0 +1,1128 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="./images/flipkart-favicon.png">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="./css/style.css">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.3/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Online Shopping Site for Mobiles, Electronics, Furniture, Grocery, Lifestyle, Books &amp; More. Best Offers!
+    </title>
+</head>
+
+<body>
+
+    <div id="coupon">
+        <button class="button btn-close btn-close-black" aria-label="Close" onClick="closeCoupon()"></button>
+        <img src="./images/coupon.jpg" alt="">
+
+    </div>
+
+    <div class="mainContainer" id="mainDarkMode0">
+        <nav id='darkmode' class="navbar navbar-expand-lg navbar-light bg-primary navbarContainer">
+               
+                <div class="brandImage weathernew">
+                <img class="weatherimg" id="weatherIcon">
+                <!-- <span id="out"></span> -->
+                
+                <i class="wealoc fa-solid fa-location-dot"></i><span id="allowedlocation"></span>
+                <span id="weatherOut"></span>
+                    
+                </div>
+           
+            
+            <div class=" container mx-0">
+                
+                <div class="brandImage">
+
+                    <a class="navbar-brand d-block brandhyperlink1" href="#">
+                        <img class="flipkartIcon" src="./images/flipkart-plus_8d85f4.png" alt="">
+                    </a>
+                    <a class="navbar-brand brandhyperlink2" href="#">
+                        <span class="fs-6 explore">Explore</span> <span class="fs-6 text-warning">Plus</span>
+                        <img class="flipkartplus" src='./images/plus_aef861.png' alt="">
+                        
+                    </a>
+                </div>
+
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <div class="d-flex searchBar">
+                        <input class="form-control me-2" type="search" placeholder="Search for products,brands and more"
+                            aria-label="Search">
+                        <button class="btn bg-white px-4 text-center" type="submit" onclick="loginpage()">Login</button>
+                    </div>
+
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item ms-5 ">
+                            <a class="nav-link active text-white fw-bold" aria-current="page" href="#">Become a
+                                Seller</a>
+                        </li>
+                        <li class="nav-item dropdown ms-5 fw-bold">
+                            <a class="nav-link dropdown-toggle text-white" href="#" id="navbarDropdown" role="button"
+                                data-bs-toggle="dropdown" aria-expanded="false">
+                                More
+                            </a>
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <li><a class="dropdown-item" href="#">Notification Preferences</a></li>
+                                <li>
+                                    <hr class="dropdown-divider">
+                                </li>
+                                <li><a class="dropdown-item" href="#">24x7 Customer Care</a></li>
+                                <li>
+                                    <hr class="dropdown-divider">
+                                </li>
+                                <li><a class="dropdown-item" href="#">Advertisement</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item ms-5">
+                            <a class="nav-link active text-white fw-bold" aria-current="page" href="#">Cart</a>
+                        </li>
+                    </ul>
+
+                </div>
+            </div>
+            <div class="form-check form-switch">
+                <input onclick="changeMode()" class="form-check-input px-2 py-2 me-3" style="width:65px; height: 27px;"
+                    type="checkbox" id="flexSwitchCheckDefault">
+            </div>
+        </nav>
+        <!-- 1st block Offers -->
+        <div class="container-fluid navbarsubcontainer card" id="mainDarkMode1">
+            <div class="row rowborder">
+                <div class="col-1 colimage">
+                    <img src="./images/Navbar/1image_navbar.png" class="imagemidNavbar" alt="">
+                    <p>Top Offers</p>
+                </div>
+                <div class="col-1 colimage">
+                    <img src="./images/Navbar/2image_navbar.png" class="imagemidNavbar" alt="">
+                    <p>Grocery</p>
+                </div>
+                <div class="col-1 colimage">
+                    <img src="./images/Navbar/3image_navbar.png" class="imagemidNavbar" alt="">
+                    <p>Mobiles</p>
+                </div>
+                <div class="col-1 colimage">
+                    <img src="./images/Navbar/4image_navbar.png" class="imagemidNavbar" alt="">
+                    <p>Fashion</p>
+                </div>
+                <div class="col-1 colimage">
+                    <img src="./images/Navbar/5image_navbar.png" class="imagemidNavbar" alt="">
+                    <p>Electronics</p>
+                </div>
+                <div class="col-1 colimage">
+                    <img src="./images/Navbar/6image_navbar.jpg" class="imagemidNavbar" alt="">
+                    <p>Home</p>
+                </div>
+                <div class="col-1 colimage">
+                    <img src="./images/Navbar/7image_navbar.png" class="imagemidNavbar" alt="">
+                    <p>Appliances</p>
+                </div>
+                <div class="col-1 colimage">
+                    <img src="./images/Navbar/8image_navbar.png" class="imagemidNavbar" alt="">
+                    <p>Travel</p>
+                </div>
+                <div class="col-1 colimage">
+                    <img src="./images/Navbar/9image_navbar.png" class="imagemidNavbar" alt="">
+                    <p>Beauty, Toys & More</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- 2nd Advertisement -->
+        <div id="carouselExampleInterval" class="carousel slide marginContainer" data-bs-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active" data-bs-interval="10000">
+                    <img src="./images/Navbar_carousel/1navbar_carousel.jpg" class="d-block w-100 carouselimage"
+                        alt="...">
+                </div>
+                <div class="carousel-item" data-bs-interval="2000">
+                    <img src="./images/Navbar_carousel/2navbar_carousel.jpeg" class="d-block w-100 carouselimage"
+                        alt="...">
+                </div>
+                <div class="carousel-item">
+                    <img src="./images/Navbar_carousel/3navbar_carousel.jpeg" class="d-block w-100 carouselimage"
+                        alt="...">
+                </div>
+            </div>
+            <button class="carousel-control-prev button-prev" type="button" data-bs-target="#carouselExampleInterval"
+                data-bs-slide="prev">
+                <span class="carousel-control-prev-icon carousel_icon_prev" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next button-next" type="button" data-bs-target="#carouselExampleInterval"
+                data-bs-slide="next">
+                <span class="carousel-control-next-icon carousel_icon_next" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+
+        <!-- 1st Deal -->
+        <div class="card marginContainer" id="mainDarkMode2">
+            <div class="card-body border-bottom d-flex">
+                <div class="me-2">
+                    <h5>Deals of the Day</h5>
+                </div>
+                <div class="me-2"><i class="bi bi-stopwatch"></i></div>
+                <div class="me-2">16 : 08 : 55 Left</div>
+            </div>
+
+            <div id="carouselExampleSlidesOnly" class="carousel slide marginContainer" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active" data-bs-interval="10000">
+                        <!-- 1st slide show -->
+                        <div class="d-flex flex-wrap">
+                            <div class="card-body border  mt-3 me-3 p-0" style="width: 12rem; height: 16rem;">
+                                <div class="text-center"><img src="./images/DealsDay/image1.jpeg" alt=""></div>
+                                <div class="mb-1 text-center"><b>Floral Tops, Bra, Nightwear...</b></div>
+                                <div class=" mb-1 text-center text-success">50 - 80%+Extra10% Off</div>
+                                <div class="text-muted text-center">Harpa, Amante, Chemistry...</div>
+                            </div>
+                            <div class="card-body border  my-3 p-0" style="width: 12rem; height: 16rem;">
+                                <div class="text-center"><img src="./images/DealsDay/image1.jpeg" alt=""></div>
+                                <div class="mb-1 text-center"><b>Floral Tops, Bra, Nightwear...</b></div>
+                                <div class=" mb-1 text-center text-success">50 - 80%+Extra10% Off</div>
+                                <div class="text-muted text-center">Harpa, Amante, Chemistry...</div>
+                            </div>
+                            <div class="card-body border  mt-3 mx-3 p-0" style="width: 12rem; height: 16rem;">
+                                <div class="text-center"><img src="./images/DealsDay/image1.jpeg" alt=""></div>
+                                <div class="mb-1 text-center"><b>Floral Tops, Bra, Nightwear...</b></div>
+                                <div class=" mb-1 text-center text-success">50 - 80%+Extra10% Off</div>
+                                <div class="text-muted text-center">Harpa, Amante, Chemistry...</div>
+                            </div>
+                            <div class="card-body border  my-3 p-0" style="width: 12rem; height: 16rem;">
+                                <div class="text-center"><img src="./images/DealsDay/image1.jpeg" alt=""></div>
+                                <div class="mb-1 text-center"><b>Floral Tops, Bra, Nightwear...</b></div>
+                                <div class=" mb-1 text-center text-success">50 - 80%+Extra10% Off</div>
+                                <div class="text-muted text-center">Harpa, Amante, Chemistry...</div>
+                            </div>
+                            <div class="card-body border  mt-3 mx-3 p-0" style="width: 12rem; height: 16rem;">
+                                <div class="text-center"><img src="./images/DealsDay/image1.jpeg" alt=""></div>
+                                <div class="mb-1 text-center"><b>Floral Tops, Bra, Nightwear...</b></div>
+                                <div class=" mb-1 text-center text-success">50 - 80%+Extra10% Off</div>
+                                <div class="text-muted text-center">Harpa, Amante, Chemistry...</div>
+                            </div>
+                            <div class="card-body border  my-3 p-0" style="width: 12rem; height: 16rem;">
+                                <div class="text-center"><img src="./images/DealsDay/image1.jpeg" alt=""></div>
+                                <div class="mb-1 text-center"><b>Floral Tops, Bra, Nightwear...</b></div>
+                                <div class=" mb-1 text-center text-success">50 - 80%+Extra10% Off</div>
+                                <div class="text-muted text-center">Harpa, Amante, Chemistry...</div>
+                            </div>
+
+                            <button class="carousel-control-prev button-prev" type="button"
+                                data-bs-target="#carouselExampleSlidesOnly" data-bs-slide="prev">
+                                <span class="carousel-control-prev-icon carousel_icon_prev" aria-hidden="true"></span>
+                                <span class="visually-hidden">Previous</span>
+                            </button>
+                            <button class="carousel-control-next button-next" type="button"
+                                data-bs-target="#carouselExampleSlidesOnly" data-bs-slide="next">
+                                <span class="carousel-control-next-icon carousel_icon_next" aria-hidden="true"></span>
+                                <span class="visually-hidden">Next</span>
+                            </button>
+
+                        </div>
+
+                    </div>
+                    <div class="carousel-item" data-bs-interval="2000">
+                        <div class="d-flex flex-wrap">
+                            <div class="card-body border  mt-3 me-3 p-0" style="width: 12rem; height: 16rem;">
+                                <div class="text-center"><img src="./images/DealsDay/image1.jpeg" alt=""></div>
+                                <div class="mb-1 text-center"><b>Floral Tops, Bra, Nightwear...</b></div>
+                                <div class=" mb-1 text-center text-success">50 - 80%+Extra10% Off</div>
+                                <div class="text-muted text-center">Harpa, Amante, Chemistry...</div>
+                            </div>
+                            <div class="card-body border  my-3 p-0" style="width: 12rem; height: 16rem;">
+                                <div class="text-center"><img src="./images/DealsDay/image1.jpeg" alt=""></div>
+                                <div class="mb-1 text-center"><b>Floral Tops, Bra, Nightwear...</b></div>
+                                <div class=" mb-1 text-center text-success">50 - 80%+Extra10% Off</div>
+                                <div class="text-muted text-center">Harpa, Amante, Chemistry...</div>
+                            </div>
+                            <div class="card-body border  mt-3 mx-3 p-0" style="width: 12rem; height: 16rem;">
+                                <div class="text-center"><img src="./images/DealsDay/image1.jpeg" alt=""></div>
+                                <div class="mb-1 text-center"><b>Floral Tops, Bra, Nightwear...</b></div>
+                                <div class=" mb-1 text-center text-success">50 - 80%+Extra10% Off</div>
+                                <div class="text-muted text-center">Harpa, Amante, Chemistry...</div>
+                            </div>
+                            <div class="card-body border  my-3 p-0" style="width: 12rem; height: 16rem;">
+                                <div class="text-center"><img src="./images/DealsDay/image1.jpeg" alt=""></div>
+                                <div class="mb-1 text-center"><b>Floral Tops, Bra, Nightwear...</b></div>
+                                <div class=" mb-1 text-center text-success">50 - 80%+Extra10% Off</div>
+                                <div class="text-muted text-center">Harpa, Amante, Chemistry...</div>
+                            </div>
+                            <div class="card-body border  mt-3 mx-3 p-0" style="width: 12rem; height: 16rem;">
+                                <div class="text-center"><img src="./images/DealsDay/image1.jpeg" alt=""></div>
+                                <div class="mb-1 text-center"><b>Floral Tops, Bra, Nightwear...</b></div>
+                                <div class=" mb-1 text-center text-success">50 - 80%+Extra10% Off</div>
+                                <div class="text-muted text-center">Harpa, Amante, Chemistry...</div>
+                            </div>
+                            <div class="card-body border  my-3 p-0" style="width: 12rem; height: 16rem;">
+                                <div class="text-center"><img src="./images/DealsDay/image1.jpeg" alt=""></div>
+                                <div class="mb-1 text-center"><b>Floral Tops, Bra, Nightwear...</b></div>
+                                <div class=" mb-1 text-center text-success">50 - 80%+Extra10% Off</div>
+                                <div class="text-muted text-center">Harpa, Amante, Chemistry...</div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+                <button class="carousel-control-prev button-prev" type="button"
+                    data-bs-target="#carouselExampleSlidesOnly" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon carousel_icon_prev" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next button-next" type="button"
+                    data-bs-target="#carouselExampleSlidesOnly" data-bs-slide="next">
+                    <span class="carousel-control-next-icon carousel_icon_next" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+
+
+        </div>
+
+        <!-- 2nd Deal -->
+        <div class="card marginContainer" id="mainDarkMode3">
+            <div class="card-body border-bottom d-flex">
+                <div class="me-2">
+                    <h5>Deals of the Day</h5>
+                </div>
+                <div class="me-2"><i class="bi bi-stopwatch"></i></div>
+                <div class="me-2">16 : 08 : 55 Left</div>
+            </div>
+
+            <div id="carouselExampleSlidesOnly2" class="carousel slide marginContainer" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active" data-bs-interval="10000">
+                        <!-- 1st slide show -->
+                        <div class="d-flex flex-wrap">
+                            <div class="card-body border  mt-3 me-3 p-0" style="width: 12rem; height: 16rem;">
+                                <div class="text-center"><img src="./images/DealsDay/image1.jpeg" alt=""></div>
+                                <div class="mb-1 text-center"><b>Floral Tops, Bra, Nightwear...</b></div>
+                                <div class=" mb-1 text-center text-success">50 - 80%+Extra10% Off</div>
+                                <div class="text-muted text-center">Harpa, Amante, Chemistry...</div>
+                            </div>
+                            <div class="card-body border  my-3 p-0" style="width: 12rem; height: 16rem;">
+                                <div class="text-center"><img src="./images/DealsDay/image1.jpeg" alt=""></div>
+                                <div class="mb-1 text-center"><b>Floral Tops, Bra, Nightwear...</b></div>
+                                <div class=" mb-1 text-center text-success">50 - 80%+Extra10% Off</div>
+                                <div class="text-muted text-center">Harpa, Amante, Chemistry...</div>
+                            </div>
+                            <div class="card-body border  mt-3 mx-3 p-0" style="width: 12rem; height: 16rem;">
+                                <div class="text-center"><img src="./images/DealsDay/image1.jpeg" alt=""></div>
+                                <div class="mb-1 text-center"><b>Floral Tops, Bra, Nightwear...</b></div>
+                                <div class=" mb-1 text-center text-success">50 - 80%+Extra10% Off</div>
+                                <div class="text-muted text-center">Harpa, Amante, Chemistry...</div>
+                            </div>
+                            <div class="card-body border  my-3 p-0" style="width: 12rem; height: 16rem;">
+                                <div class="text-center"><img src="./images/DealsDay/image1.jpeg" alt=""></div>
+                                <div class="mb-1 text-center"><b>Floral Tops, Bra, Nightwear...</b></div>
+                                <div class=" mb-1 text-center text-success">50 - 80%+Extra10% Off</div>
+                                <div class="text-muted text-center">Harpa, Amante, Chemistry...</div>
+                            </div>
+                            <div class="card-body border  mt-3 mx-3 p-0" style="width: 12rem; height: 16rem;">
+                                <div class="text-center"><img src="./images/DealsDay/image1.jpeg" alt=""></div>
+                                <div class="mb-1 text-center"><b>Floral Tops, Bra, Nightwear...</b></div>
+                                <div class=" mb-1 text-center text-success">50 - 80%+Extra10% Off</div>
+                                <div class="text-muted text-center">Harpa, Amante, Chemistry...</div>
+                            </div>
+                            <div class="card-body border  my-3 p-0" style="width: 12rem; height: 16rem;">
+                                <div class="text-center"><img src="./images/DealsDay/image1.jpeg" alt=""></div>
+                                <div class="mb-1 text-center"><b>Floral Tops, Bra, Nightwear...</b></div>
+                                <div class=" mb-1 text-center text-success">50 - 80%+Extra10% Off</div>
+                                <div class="text-muted text-center">Harpa, Amante, Chemistry...</div>
+                            </div>
+                        </div>
+                        <button class="carousel-control-prev button-prev" type="button"
+                            data-bs-target="#carouselExampleSlidesOnly2" data-bs-slide="prev">
+                            <span class="carousel-control-prev-icon carousel_icon_prev" aria-hidden="true"></span>
+                            <span class="visually-hidden">Previous</span>
+                        </button>
+                        <button class="carousel-control-next button-next" type="button"
+                            data-bs-target="#carouselExampleSlidesOnly2" data-bs-slide="next">
+                            <span class="carousel-control-next-icon carousel_icon_next" aria-hidden="true"></span>
+                            <span class="visually-hidden">Next</span>
+                        </button>
+
+
+                    </div>
+                    <div class="carousel-item" data-bs-interval="2000">
+                        <div class="d-flex flex-wrap">
+                            <div class="card-body border  mt-3 me-3 p-0" style="width: 12rem; height: 16rem;">
+                                <div class="text-center"><img src="./images/DealsDay/image1.jpeg" alt=""></div>
+                                <div class="mb-1 text-center"><b>Floral Tops, Bra, Nightwear...</b></div>
+                                <div class=" mb-1 text-center text-success">50 - 80%+Extra10% Off</div>
+                                <div class="text-muted text-center">Harpa, Amante, Chemistry...</div>
+                            </div>
+                            <div class="card-body border  my-3 p-0" style="width: 12rem; height: 16rem;">
+                                <div class="text-center"><img src="./images/DealsDay/image1.jpeg" alt=""></div>
+                                <div class="mb-1 text-center"><b>Floral Tops, Bra, Nightwear...</b></div>
+                                <div class=" mb-1 text-center text-success">50 - 80%+Extra10% Off</div>
+                                <div class="text-muted text-center">Harpa, Amante, Chemistry...</div>
+                            </div>
+                            <div class="card-body border  mt-3 mx-3 p-0" style="width: 12rem; height: 16rem;">
+                                <div class="text-center"><img src="./images/DealsDay/image1.jpeg" alt=""></div>
+                                <div class="mb-1 text-center"><b>Floral Tops, Bra, Nightwear...</b></div>
+                                <div class=" mb-1 text-center text-success">50 - 80%+Extra10% Off</div>
+                                <div class="text-muted text-center">Harpa, Amante, Chemistry...</div>
+                            </div>
+                            <div class="card-body border  my-3 p-0" style="width: 12rem; height: 16rem;">
+                                <div class="text-center"><img src="./images/DealsDay/image1.jpeg" alt=""></div>
+                                <div class="mb-1 text-center"><b>Floral Tops, Bra, Nightwear...</b></div>
+                                <div class=" mb-1 text-center text-success">50 - 80%+Extra10% Off</div>
+                                <div class="text-muted text-center">Harpa, Amante, Chemistry...</div>
+                            </div>
+                            <div class="card-body border  mt-3 mx-3 p-0" style="width: 12rem; height: 16rem;">
+                                <div class="text-center"><img src="./images/DealsDay/image1.jpeg" alt=""></div>
+                                <div class="mb-1 text-center"><b>Floral Tops, Bra, Nightwear...</b></div>
+                                <div class=" mb-1 text-center text-success">50 - 80%+Extra10% Off</div>
+                                <div class="text-muted text-center">Harpa, Amante, Chemistry...</div>
+                            </div>
+                            <div class="card-body border  my-3 p-0" style="width: 12rem; height: 16rem;">
+                                <div class="text-center"><img src="./images/DealsDay/image1.jpeg" alt=""></div>
+                                <div class="mb-1 text-center"><b>Floral Tops, Bra, Nightwear...</b></div>
+                                <div class=" mb-1 text-center text-success">50 - 80%+Extra10% Off</div>
+                                <div class="text-muted text-center">Harpa, Amante, Chemistry...</div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+                <button class="carousel-control-prev button-prev" type="button"
+                    data-bs-target="#carouselExampleSlidesOnly2" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon carousel_icon_prev" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next button-next" type="button"
+                    data-bs-target="#carouselExampleSlidesOnly2" data-bs-slide="next">
+                    <span class="carousel-control-next-icon carousel_icon_next" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+        </div>
+        <!-- 3rd Deal -->
+        <div class="card marginContainer" id="mainDarkMode4">
+            <div class="card-body border-bottom d-flex">
+                <div class="me-2">
+                    <h5>Deals of the Day</h5>
+                </div>
+                <div class="me-2"><i class="bi bi-stopwatch"></i></div>
+                <div class="me-2">16 : 08 : 55 Left</div>
+            </div>
+
+            <div id="carouselExampleSlidesOnly3" class="carousel slide marginContainer" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active" data-bs-interval="10000">
+                        <!-- 1st slide show -->
+                        <div class="d-flex flex-wrap">
+                            <div class="card-body border  mt-3 me-3 p-0" style="width: 12rem; height: 16rem;">
+                                <div class="text-center"><img src="./images/DealsDay/image1.jpeg" alt=""></div>
+                                <div class="mb-1 text-center"><b>Floral Tops, Bra, Nightwear...</b></div>
+                                <div class=" mb-1 text-center text-success">50 - 80%+Extra10% Off</div>
+                                <div class="text-muted text-center">Harpa, Amante, Chemistry...</div>
+                            </div>
+                            <div class="card-body border  my-3 p-0" style="width: 12rem; height: 16rem;">
+                                <div class="text-center"><img src="./images/DealsDay/image1.jpeg" alt=""></div>
+                                <div class="mb-1 text-center"><b>Floral Tops, Bra, Nightwear...</b></div>
+                                <div class=" mb-1 text-center text-success">50 - 80%+Extra10% Off</div>
+                                <div class="text-muted text-center">Harpa, Amante, Chemistry...</div>
+                            </div>
+                            <div class="card-body border  mt-3 mx-3 p-0" style="width: 12rem; height: 16rem;">
+                                <div class="text-center"><img src="./images/DealsDay/image1.jpeg" alt=""></div>
+                                <div class="mb-1 text-center"><b>Floral Tops, Bra, Nightwear...</b></div>
+                                <div class=" mb-1 text-center text-success">50 - 80%+Extra10% Off</div>
+                                <div class="text-muted text-center">Harpa, Amante, Chemistry...</div>
+                            </div>
+                            <div class="card-body border  my-3 p-0" style="width: 12rem; height: 16rem;">
+                                <div class="text-center"><img src="./images/DealsDay/image1.jpeg" alt=""></div>
+                                <div class="mb-1 text-center"><b>Floral Tops, Bra, Nightwear...</b></div>
+                                <div class=" mb-1 text-center text-success">50 - 80%+Extra10% Off</div>
+                                <div class="text-muted text-center">Harpa, Amante, Chemistry...</div>
+                            </div>
+                            <div class="card-body border  mt-3 mx-3 p-0" style="width: 12rem; height: 16rem;">
+                                <div class="text-center"><img src="./images/DealsDay/image1.jpeg" alt=""></div>
+                                <div class="mb-1 text-center"><b>Floral Tops, Bra, Nightwear...</b></div>
+                                <div class=" mb-1 text-center text-success">50 - 80%+Extra10% Off</div>
+                                <div class="text-muted text-center">Harpa, Amante, Chemistry...</div>
+                            </div>
+                            <div class="card-body border  my-3 p-0" style="width: 12rem; height: 16rem;">
+                                <div class="text-center"><img src="./images/DealsDay/image1.jpeg" alt=""></div>
+                                <div class="mb-1 text-center"><b>Floral Tops, Bra, Nightwear...</b></div>
+                                <div class=" mb-1 text-center text-success">50 - 80%+Extra10% Off</div>
+                                <div class="text-muted text-center">Harpa, Amante, Chemistry...</div>
+                            </div>
+                        </div>
+                        <button class="carousel-control-prev button-prev" type="button"
+                            data-bs-target="#carouselExampleSlidesOnly2" data-bs-slide="prev">
+                            <span class="carousel-control-prev-icon carousel_icon_prev" aria-hidden="true"></span>
+                            <span class="visually-hidden">Previous</span>
+                        </button>
+                        <button class="carousel-control-next button-next" type="button"
+                            data-bs-target="#carouselExampleSlidesOnly2" data-bs-slide="next">
+                            <span class="carousel-control-next-icon carousel_icon_next" aria-hidden="true"></span>
+                            <span class="visually-hidden">Next</span>
+                        </button>
+
+
+                    </div>
+                    <div class="carousel-item" data-bs-interval="2000">
+                        <div class="d-flex flex-wrap">
+                            <div class="card-body border border-primary mt-3 me-3 p-0"
+                                style="width: 12rem; height: 16rem;">
+                                <div class="text-center"><img src="./images/DealsDay/image1.jpeg" alt=""></div>
+                                <div class="mb-1 text-center"><b>Floral Tops, Bra, Nightwear...</b></div>
+                                <div class=" mb-1 text-center text-success">50 - 80%+Extra10% Off</div>
+                                <div class="text-muted text-center">Harpa, Amante, Chemistry...</div>
+                            </div>
+                            <div class="card-body border border-primary my-3 p-0" style="width: 12rem; height: 16rem;">
+                                <div class="text-center"><img src="./images/DealsDay/image1.jpeg" alt=""></div>
+                                <div class="mb-1 text-center"><b>Floral Tops, Bra, Nightwear...</b></div>
+                                <div class=" mb-1 text-center text-success">50 - 80%+Extra10% Off</div>
+                                <div class="text-muted text-center">Harpa, Amante, Chemistry...</div>
+                            </div>
+                            <div class="card-body border border-primary mt-3 mx-3 p-0"
+                                style="width: 12rem; height: 16rem;">
+                                <div class="text-center"><img src="./images/DealsDay/image1.jpeg" alt=""></div>
+                                <div class="mb-1 text-center"><b>Floral Tops, Bra, Nightwear...</b></div>
+                                <div class=" mb-1 text-center text-success">50 - 80%+Extra10% Off</div>
+                                <div class="text-muted text-center">Harpa, Amante, Chemistry...</div>
+                            </div>
+                            <div class="card-body border border-primary my-3 p-0" style="width: 12rem; height: 16rem;">
+                                <div class="text-center"><img src="./images/DealsDay/image1.jpeg" alt=""></div>
+                                <div class="mb-1 text-center"><b>Floral Tops, Bra, Nightwear...</b></div>
+                                <div class=" mb-1 text-center text-success">50 - 80%+Extra10% Off</div>
+                                <div class="text-muted text-center">Harpa, Amante, Chemistry...</div>
+                            </div>
+                            <div class="card-body border border-primary mt-3 mx-3 p-0"
+                                style="width: 12rem; height: 16rem;">
+                                <div class="text-center"><img src="./images/DealsDay/image1.jpeg" alt=""></div>
+                                <div class="mb-1 text-center"><b>Floral Tops, Bra, Nightwear...</b></div>
+                                <div class=" mb-1 text-center text-success">50 - 80%+Extra10% Off</div>
+                                <div class="text-muted text-center">Harpa, Amante, Chemistry...</div>
+                            </div>
+                            <div class="card-body border border-primary my-3 p-0" style="width: 12rem; height: 16rem;">
+                                <div class="text-center"><img src="./images/DealsDay/image1.jpeg" alt=""></div>
+                                <div class="mb-1 text-center"><b>Floral Tops, Bra, Nightwear...</b></div>
+                                <div class=" mb-1 text-center text-success">50 - 80%+Extra10% Off</div>
+                                <div class="text-muted text-center">Harpa, Amante, Chemistry...</div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+                <button class="carousel-control-prev button-prev" type="button"
+                    data-bs-target="#carouselExampleSlidesOnly3" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon carousel_icon_prev" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next button-next" type="button"
+                    data-bs-target="#carouselExampleSlidesOnly3" data-bs-slide="next">
+                    <span class="carousel-control-next-icon carousel_icon_next" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+        </div>
+
+        <div class="subFooter card mt-5" id="mainDarkMode5">
+            <div class="marginContainer">
+                <div class="subFooterone">
+                    <h6 class="mb-4">Top Stories:Brand Directory</h6>
+                    <p>
+                        MOST SEARCHED FOR ON FLIPKART:Electronics Store | OPPO A16KVivo Y33T | OPPO Reno7 5G | Bathroom
+                        Exhaust
+                        Fan |
+                        Samsung Window AC | OPPO Reno7 Pro 5G | iPhone 13 | iPhone 13 Pro | iPhone 13 Pro Max | iPhone
+                        13
+                        Mini |
+                        Flipkart QuickBooks | Flipkart Help Centre | Boat 2022 Store | Flipkart Track Orders | Flipkart
+                        Manage
+                        Orders | Flipkart Return Orders | Flipkart Gift Cards Store | Flipkart Axis Bank Credit Card |
+                        Flipkart
+                        Pay Later
+                    </p>
+                    <p>
+                        MOBILES:iPhone 12 64GB | iPhone 12 Pro 512GB | iPhone 12 128GB | Vivo Y91i | Vivo Y11 | Vivo Y15
+                        |
+                        Vivo
+                        Y50
+                        | Vivo Y12 | Reno2 F | Oppo A12 | Oppo F15 | Oppo A31 | Samsung A71 | Samsung A51 | Samsung A31
+                        |
+                        Realme
+                        X2
+                        | iPhone 11 | iPhone 11 Pro | iPhone 11 Pro | MaxMobile Offers | iphone x4G Mobile | Nokia
+                        Mobile |
+                        Samsung Mobile |
+                        iphoneOppo Mobile | Vivo Mobile
+                    <p>
+                        CAMERA:GoPro Action Camera | Nikon Camera | Canon Camera | Sony Camera | Canon DSLR | Nikon DSLR
+                    </p>
+                    </p>
+                    <p>
+                        TVS:Nokia TV | Panasonic TV | Thomson TV | Vu TV | Realme TV | Motorola TV | OnePlus TVs | LG TV
+                        | TV |
+                        Sony
+                        TV | Samsung TV |
+                        Android Television | Iffalcon Tv | Mi TV</p>
+                    <p>
+                        LARGE APPLIANCES:Television | Washing Machines | Refrigerators | Air Conditioners | Electric
+                        Cookers
+                        |
+                        Electric Jug(Heater) / Travel KettlesInduction Cooktops |
+                        Inverters / stabilizerIrons / Iron Box | Mixer Grinder Juicer | Wet Grinders | Chimneys |
+                        Microwave
+                        Ovens | Vacuum Cleaners |
+                        Water Purifier | Fan
+                    </p>
+                    <p>
+                        CLOTHING:Men Shirts | Kurta Pajama | Kurtas | Men T-Shirts | Jeans | Saree | Dresses | Kids
+                        Dresses
+                        |
+                        Designer Salwar Suits |
+                        Bra | Designer | Kurtis | Track Pant | Men Kurtas | Gym Wear | Party Dresses | Palazzo SuitsBoys
+                        Clothing | Gloves | Nighty | Maxi Dresses |
+                        Anarkali | Gowns | Culottes | Salwar Suits | Kurtis | Designer Sarees | Leggings | Shorts |
+                        Georgette
+                        Sarees |
+                        Ethnic WearBriefs & Trunks | Nike Watches | Ascot Tie | Corset Tops Tunics | Leather PU Skirts |
+                        Corset
+                        tops camisoles |
+                        Women magenta earrings | No collar jackets | Green dress material | Black patiala kurta set |
+                        Men
+                        camel
+                        shoes casual |
+                        Black pathani | Wallets sling | Khaki dresses | Kids formal dresses | Mauve shirts | Women
+                        henley |
+                        Indigo trousers |
+                        Leopard dresses | Sleeveless shrugs
+                    </p>
+                    <p>
+                        FOOTWEAR:Shoes | Adidas Shoes | Reebok Shoes | Nike Shoes | Puma Shoes | Boots | Bata Shoes |
+                        Woodland
+                        Shoes | Skechers Shoes |
+                        Sneakers | Womens Boots | Sports Shoes | Loafers | Sandals | Lotto Sports Shoes | Casual Shoes |
+                        Womens
+                        Skechers Shoes |
+                        Asics Sports Shoes | Formal Shoes | School Shoes
+                    </p>
+                    <p>
+                        GROCERIES:PhonePe Grocery Voucher | Hand Wash | Soap | Cashew Nuts | Sunflower Oil | Eggs |
+                        Toilet
+                        Cleaner | Harpic Toilet Cleaner |
+                        Dettol Soap | Mustard Oil | Biscuits | Cheese | Patanjali Atta | Fortune Oil | Aashirvaad Atta |
+                        Tea
+                    </p>
+                    <p>
+                        BEST SELLING ON FLIPKART:Panasonic Side by Side Refrigerator | Best Gas Geyser | Kitchen Geyser
+                        |
+                        Nutri
+                        Blenders | Portable Air Cooler |
+                        Best Air Cooler | Bags | Hitachi Refrigerator 3 Door | Books | Toys | Candles | Helmets | Wall
+                        Clocks |
+                        Baby Food | Chocolates | Cycles |
+                        Calculators | Lipsticks | Mask | Fastrack Watches | Wallets | Earrings | Gold Coins | Realme Pad
+                        Mini |
+                        Handbags | DIZO Watch S |
+                        Amazfit GTR 2 (New Version) Smartwatch | boAt Wave Neo with 1.69 inch, 2.5D Curved Display
+                    </p>
+                    <p>
+                        FURNITURE:Grand Furniture Sale | Furniture | Sofas | Beds | Dining sets | Wardrobes | Mattresses
+                        |
+                        TV
+                        Units | Tables | Chairs | Shelves |
+                        Bean Bags | Office Chairs | Computer Table | Office Tables | Red Sofa | Wakefit Beds | White
+                        Sofa |
+                        Wakefit Mattress | Green Sofa |
+                        Black Sofa | Brown Sofa
+                    </p>
+                    <p>
+                        BGMH:Whey Protein Supplement | ToysRus | Online Guitar | Books Store | Musical Instrument Store
+                        |
+                        Energy
+                        Drinks | Toys Store |
+                        Milk Drink Mixes | Protein Supplements
+                    <p>
+                </div>
+                <div class="subFooterone">
+                    <h6>Flipkart: The One-stop Shopping Destination</h6>
+                    <p>
+                        E-commerce is revolutionizing the way we all shop in India. Why do you want to hop from one
+                        store to
+                        another in search of the latest phone when you can find it on the Internet in a single click?
+                        Not
+                        only
+                        mobiles. Flipkart houses everything you can possibly imagine, from trending electronics like
+                        laptops,
+                        tablets, smartphones, and mobile accessories to in-vogue fashion staples like shoes, clothing
+                        and
+                        lifestyle accessories; from modern furniture like sofa sets, dining tables, and wardrobes to
+                        appliances
+                        that make your life easy like washing machines, TVs, ACs, mixer grinder juicers and other
+                        time-saving
+                        kitchen and small appliances; from home furnishings like cushion covers, mattresses and
+                        bedsheets to
+                        toys and musical instruments, we got them all covered. You name it, and you can stay assured
+                        about
+                        finding them all here. For those of you with erratic working hours, Flipkart is your best bet.
+                        Shop
+                        in
+                        your PJs, at night or in the wee hours of the morning. This e-commerce never shuts down.
+                    </p>
+                    <p>
+                        What's more, with our year-round shopping festivals and events, our prices are irresistible.
+                        We're
+                        sure
+                        you'll find yourself picking up more than what you had in mind. If you are wondering why you
+                        should
+                        shop
+                        from Flipkart when there are multiple options available to you, well, the below will answer your
+                        question.
+                    </p>
+                </div>
+                <div class="subFooterone">
+                    <h6>Flipkart Plus</h6>
+                    <p>
+                        A world of limitless possibilities awaits you - Flipkart Plus was kickstarted as a loyalty
+                        reward
+                        programme for all its regular customers at zero subscription fee. All you need is 500 supercoins
+                        to
+                        be a
+                        part of this service. For every 100 rupees spent on Flipkart order, Plus members earns 4
+                        supercoins
+                        &
+                        non-plus members earn 2 supercoins. Free delivery, early access during sales and shopping
+                        festivals,
+                        exchange offers and priority customer service are the top benefits to a Flipkart Plus member. In
+                        short,
+                        earn more when you shop more!
+                    </p>
+                    <p>
+                        What's more, you can even use the Flipkart supercoins for a number of exciting services,
+                        like:<br>
+                        An annual Zomato Gold membership<br>
+                        An annual Hotstar Premium membership<br>
+                        6 months Gaana plus subscription<br>
+                        Rupees 550 instant discount on flights on ixigo<br>
+                        Check out https://www.flipkart.com/plus/all-offers for the entire list. Terms and conditions
+                        apply.
+                    </p>
+                </div>
+                <div class="subFooterone">
+                    <h6>No Cost EMI</h6>
+                    <p>
+                        In an attempt to make high-end products accessible to all, our No Cost EMI plan enables you to
+                        shop
+                        with
+                        us under EMI, without shelling out any processing fee. Applicable on select mobiles, laptops,
+                        large
+                        and
+                        small appliances, furniture, electronics and watches, you can now shop without burning a hole in
+                        your
+                        pocket. If you've been eyeing a product for a long time, chances are it may be up for a no cost
+                        EMI.
+                        Take a look ASAP! Terms and conditions apply.
+                    </p>
+                </div>
+                <div class="subFooterone">
+                    <h6>EMI on Debit Cards</h6>
+                    <p>
+                        Did you know debit card holders account for 79.38 crore in the country, while there are only
+                        3.14
+                        crore
+                        credit card holders? After enabling EMI on Credit Cards, in another attempt to make online
+                        shopping
+                        accessible to everyone, Flipkart introduces EMI on Debit Cards, empowering you to shop
+                        confidently
+                        with
+                        us without having to worry about pauses in monthly cash flow. At present, we have partnered with
+                        Axis
+                        Bank, HDFC Bank, State Bank of India and ICICI Bank for this facility. More power to all our
+                        shoppers!
+                        Terms and conditions apply.
+                    </p>
+                </div>
+                <div class="subFooterone">
+                    <h6> Mobile Exchange Offers</h6>
+                    <p>
+                        Get an instant discount on the phone that you have been eyeing on. Exchange your old mobile for
+                        a
+                        new
+                        one after the
+                        Flipkart experts calculate the value of your old phone, provided it is in a working condition
+                        without
+                        damage to the
+                        screen. If a phone is applicable for an exchange offer, you will see the 'Buy with Exchange'
+                        option
+                        on
+                        the product
+                        description of the phone. So, be smart, always opt for an exchange wherever possible. Terms and
+                        conditions apply.
+                    </p>
+                </div>
+                <div class="subFooterone">
+                    <h6>What Can You Buy From Flipkart?</h6>
+                    <h6>Mobile Phones</h6>
+                    <p>
+
+                        From budget phones to state-of-the-art smartphones, we have a mobile for everybody out there.
+                        Whether
+                        you're looking
+                        for larger, fuller screens, power-packed batteries, blazing-fast processors, beautification
+                        apps,
+                        high-tech selfie
+                        cameras or just large internal space, we take care of all the essentials. Shop from top brands
+                        in
+                        the
+                        country like
+                        Samsung, Apple, Oppo, Xiaomi, Realme, Vivo, and Honor to name a few. Rest assured, you're buying
+                        from
+                        only the most
+                        reliable names in the market. What's more, with Flipkart's Complete Mobile Protection Plan, you
+                        will
+                        never again
+                        find the need to run around service centres. This plan entails you to a number of post-purchase
+                        solutions, starting
+                        at as low as Rupees 99 only! Broken screens, liquid damage to phone, hardware and software
+                        glitches,
+                        and
+                        replacements - the Flipkart Complete Mobile Protection covers a comprehensive range of
+                        post-purchase
+                        problems, with
+                        door-to-door services.
+                    </p>
+                </div>
+                <div class="subFooterone">
+                    <h6>Electronic Devices and Accessories</h6>
+                    <p>
+                        When it comes to laptops, we are not far behind. Filter among dozens of super-fast operating
+                        systems,
+                        hard disk
+                        capacity, RAM, lifestyle, screen size and many other criterias for personalized results in a
+                        flash.
+                        All
+                        you students
+                        out there, confused about what laptop to get? Our Back To College Store segregates laptops
+                        purpose
+                        wise
+                        (gaming,
+                        browsing and research, project work, entertainment, design, multitasking) with recommendations
+                        from
+                        top
+                        brands and
+                        industry experts, facilitating a shopping experience that is quicker and simpler.
+                    </p>
+                    <p>
+                        Photography lovers, you couldn't land at a better page than ours. Cutting-edge DSLR cameras,
+                        ever
+                        reliable
+                        point-and-shoot cameras, millennial favourite instant cameras or action cameras for adventure
+                        junkies:
+                        our range of
+                        cameras is as much for beginners as it is for professionals. Canon, Nikon, GoPro, Sony, and
+                        Fujifilm
+                        are
+                        some big
+                        names you'll find in our store. Photography lovers, you couldn't land at a better page than
+                        ours.
+                        Cutting-edge DSLR
+                        cameras, ever reliable point-and-shoot cameras, millennial favourite instant cameras or action
+                        cameras
+                        for adventure
+                        junkies: our range of cameras is as much for beginners as it is for professionals. Canon, Nikon,
+                        GoPro,
+                        Sony, and
+                        Fujifilm are some big names you'll find in our store.
+                    </p>
+                    <p>
+                        Turn your home into a theatre with a stunning surround sound system. Choose from our elaborate
+                        range
+                        of
+                        Sony home
+                        theatres, JBL soundbars and Philips tower speakers for an experience to remember.
+                    </p>
+                    <p>
+                        How about jazzing up your phone with our quirky designer cases and covers? Our wide-ranging
+                        mobile
+                        accessories
+                        starting from headphones, power banks, memory cards, mobile chargers, to selfie sticks can prove
+                        to
+                        be
+                        ideal travel
+                        companions for you and your phone; never again worry about running out of charge or memory on
+                        your
+                        next
+                        vacation.
+                    </p>
+
+                </div>
+                <div class="subFooterone">
+                    <h6>Large Appliances</h6>
+                    <p>
+
+                        Sleek TVs, power-saving refrigerators, rapid-cooling ACs, resourceful washing machines -
+                        discover
+                        everything
+                        you
+                        need to run a house under one roof. Our Dependable TV and Appliance Store ensures zero transit
+                        damage,
+                        with
+                        a
+                        replacement guarantee if anything goes wrong; delivery and installation as per your convenience
+                        and
+                        a
+                        double
+                        warranty (Official Brand Warranty along with an extended Flipkart Warranty) - rest assured,
+                        value
+                        for
+                        money
+                        is what
+                        is promised and delivered. Shop from market leaders in the country like Samsung, LG, Whirlpool,
+                        Midea,
+                        Mi,
+                        Vu,
+                        Panasonic, Godrej, Sony, Daikin, and Hitachi among many others.
+                    </p>
+                </div>
+                <div class="subFooterone">
+                    <h6>Small Home Appliances</h6>
+                    <p>
+
+                        Find handy and practical home appliances designed to make your life simpler: electric kettles,
+                        OTGs,
+                        microwave
+                        ovens, sandwich makers, hand blenders, coffee makers, and many more other time-saving appliances
+                        that
+                        are
+                        truly
+                        crafted for a quicker lifestyle. Live life king size with these appliances at home.
+                    </p>
+                </div>
+                <div class="subFooterone">
+                    <h6>Lifestyle</h6>
+                    <p>
+
+                        Flipkart, 'India ka Fashion Capital', is your one-stop fashion destination for anything and
+                        everything
+                        you
+                        need to
+                        look good. Our exhaustive range of Western and Indian wear, summer and winter clothing, formal
+                        and
+                        casual
+                        footwear,
+                        bridal and artificial jewellery, long-lasting make-up, grooming tools and accessories are sure
+                        to
+                        sweep
+                        you
+                        off your
+                        feet. Shop from crowd favourites like Vero Moda, Forever 21, Only, Arrow, Woodland, Nike, Puma,
+                        Revlon,
+                        Mac,
+                        and
+                        Sephora among dozens of other top-of-the-ladder names. From summer staple maxi dresses,
+                        no-nonsense
+                        cigarette pants,
+                        traditional Bandhani kurtis to street-smart biker jackets, you can rely on us for a wardrobe
+                        that is
+                        up
+                        to
+                        date.
+                        Explore our in-house brands like Metronaut, Anmi, and Denizen, to name a few, for carefully
+                        curated
+                        designs
+                        that are
+                        the talk of the town. Get ready to be spoiled for choice.Festivals, office get-togethers,
+                        weddings,
+                        brunches, or
+                        nightwear - Flipkart will have your back each time.
+                    </p>
+                </div>
+                <div class="subFooterone">
+                    <h6>Home and Furniture</h6>
+                    <p>
+
+                        Moving to a new place is never easy, especially if you're buying new furniture. Beds, sofa sets,
+                        dining
+                        tables,
+                        wardrobes, and TV units - it's not easy to set up everything again. With the hundreds of options
+                        thrown
+                        at you, the
+                        ride could be overwhelming. What place is reliable, what furniture will stand the test of time?
+                        These
+                        are questions
+                        you must ask before you choose a store. Well, our Durability Certified Furniture Store has not
+                        only
+                        curated a range
+                        of furniture keeping in mind the modern Indian consumer but furniture that comes with a lab
+                        certification, ensuring
+                        they last you for up to 10 years. Yes, all our furniture has gone through 35 stability and load
+                        tests so
+                        that you
+                        receive only the best-quality furniture. Be FurniSure, always. Names to look out for are
+                        Nilkamal,
+                        Godrej Interio,
+                        Urban Ladder, HomeTown, Durian and Perfect Homes.
+
+                        You may have your furniture all set up, but they could end up looking flat and incomplete
+                        without
+                        complementary
+                        decor. Curtains, cushion covers, bed sheets, wall shelves, paintings, floor lamps - find
+                        everything
+                        that
+                        turns a
+                        house to an inviting home under one roof at Flipkart
+                    </p>
+                </div>
+                <div class="subFooterone">
+                    <h6>Baby and Kids</h6>
+                    <p>
+
+                        Your kids deserve only the best. From bodysuits, booties, diapers to strollers, if you're an
+                        expecting
+                        mother or a
+                        new mother, you will find everything you need to set sail on a smooth parenting journey with the
+                        help of
+                        our baby
+                        care collection. When it comes to safety, hygiene and comfort, you can rely on us without a
+                        second
+                        thought. Huggies,
+                        Pampers, MamyPoko, and Johnson & Johnson: we host only the most-trusted names in the business
+                        for
+                        your
+                        baby.
+                    </p>
+                </div>
+                <div class="subFooterone">
+                    <h6>Books, Sports and Games</h6>
+                    <p>
+
+                        Work hard and no play? We don't believe in that. Get access to best-selling fiction and
+                        non-fiction
+                        books by your
+                        favourite authors, thrilling English and Indian blockbusters, most-wanted gaming consoles, and a
+                        tempting range of
+                        fitness and sports gadgets and equipment bound to inspire you to get moving.
+                    </p>
+                </div>
+                <div class="subFooterone">
+                    <h6>Grocery/Supermart</h6>
+                    <p>
+                        Launching into the grocery vertical, Flipkart introduces Supermart that is out to bring everyday
+                        essentials close to
+                        you. From pulses, spices, dairy, personal and sanitary care, breakfast essentials, health
+                        drinks,
+                        spreads, ready to
+                        cook, grooming to cleaning agents, we are happy to present everything you need to run a house.
+                        Now
+                        buy
+                        Grocery
+                        products for as low as 1 Rupee only - our 1 Rupee Store presents new products every day for a
+                        nominal
+                        price of 1
+                        Rupee only. Terms and conditions apply.
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <div class="mainFooter" id="mainDarkMode6">
+            <div class="subFooterfirst">
+                <div class="footer">
+                    <div class="submainfooter subfooter1">Contact Us</div>
+                    <div class="submainfooter subfooter2">About Us</div>
+                    <div class="submainfooter subfooter3">Careers</div>
+                    <div class="submainfooter subfooter4">Flipkart Stories</div>
+                    <div class="submainfooter subfooter5">Press</div>
+                    <div class="submainfooter subfooter6">Flipkart Wholesale</div>
+                    <div class="submainfooter subfooter7">Corporate Information</div>
+                </div>
+                <div class="footer">
+                    <div class="submainfooter subfooter1">HELP</div>
+                    <div class="submainfooter subfooter2">Payments</div>
+                    <div class="submainfooter subfooter3">Shipping</div>
+                    <div class="submainfooter subfooter4">Cancellation & Returns</div>
+                    <div class="submainfooter subfooter5">FAQ</div>
+                    <div class="submainfooter subfooter6">Report Infringement</div>
+                </div>
+                <div class="footer">
+                    <div class="submainfooter subfooter1">POLICY</div>
+                    <div class="submainfooter subfooter2">Return Policy</div>
+                    <div class="submainfooter subfooter3">Terms Of Use</div>
+                    <div class="submainfooter subfooter4">Security</div>
+                    <div class="submainfooter subfooter5">Privacy</div>
+                    <div class="submainfooter subfooter6">Sitemap</div>
+                    <div class="submainfooter subfooter7">EPR Compliance</div>
+                </div>
+                <div class="footer">
+                    <div class="submainfooter subfooter1">SOCIAL</div>
+                    <div class="submainfooter subfooter2">Facebook</div>
+                    <div class="submainfooter subfooter3">Twitter</div>
+                    <div class="submainfooter subfooter4">YouTube</div>
+                </div>
+            </div>
+            <div class="subFootersecond">
+                <div class="submenuFooter">
+                    <div class="subfooter1">Mail Us:</div>
+                    <div>
+                        Flipkart Internet Private Limited,
+                        Buildings Alyssa, Begonia &
+                        Clove Embassy Tech Village,
+                        Outer Ring Road, Devarabeesanahalli Village,
+                        Bengaluru, 560103,
+                        Karnataka, India
+                    </div>
+                </div>
+
+                <div class="submenuFooter">
+                    <div class="subfooter1">Registered Office Address:</div>
+                    <div>
+                        Flipkart Internet Private Limited,
+                        Buildings Alyssa, Begonia &
+                        Clove Embassy Tech Village,
+                        Outer Ring Road, Devarabeesanahalli Village,
+                        Bengaluru, 560103,
+                        Karnataka, India
+                        CIN : U51109KA2012PTC066107
+                        Telephone: 1800 202 9898
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="endFooter" id="mainDarkMode7">
+            <div class="endFootermenu">
+                <i class="bi bi-bag-fill"></i>
+                Become a Seller
+            </div>
+            <div class="endFootermenu">
+                <i class="bi bi-star-fill"></i>
+                Advertise
+            </div>
+            <div class="endFootermenu">
+                <i class="bi bi-gift-fill"></i>
+                Gift Cards
+            </div>
+            <div class="endFootermenu">
+                <i class="bi bi-question-diamond-fill"></i>
+                Help Center
+            </div>
+            <div class="endFootermenu">© 2007-2022 Flipkart.com</div>
+            <div class="endFootermenu">
+                <img src="./images/Footer/payment-method.svg" alt="">
+            </div>
+        </div>
+    </div>
+
+    <script src="./js/script.js"></script>
+
+</body>
+
+</html>
