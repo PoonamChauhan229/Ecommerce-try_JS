@@ -17,39 +17,9 @@
 
 
     <script>
-        var productCard=document.getElementById('productCard')
-
-        async function productDetails(){
-            let url=`https://6350df063e9fa1244e4f2704.mockapi.io/productsdata`
-            let data=await fetch(url)
-            let res=await data.json()
-            console.log(res)  
-            res.map((element)=>{
-                productCard.innerHTML+=`
-                                <div class="col">
-                                    <div class="card">
-                                        <img src="https://i.ibb.co/pyPB1v4/14.jpg" style="height: 270px;" class="p-1 card-img-top" alt="...">
-                                        <div class="card-body m-0 py-0 border">
-                                            <h6 class="card-title m-0">${element.product_name}</h6>
-
-                                            <div class="d-flex justify-content-between">
-                                                <div class="m-0 p-0"><b>Price:</b>${element.Price}</div>
-                                                <div class="m-0 p-0">
-                                                    <span id="decrement"><i class="m-0 p-0 bi bi-dash"></i></span>
-                                                    <span id="qty" class="m-0 p-0 card-text">5</span>
-                                                    <span id="increment"><i class="m-0 p-0 bi bi-plus"></i></span>
-                                                    <span><i class="m-0 p-0 bi bi-heart-fill"></i></span>
-                                                    <span><i class=" m-0 p-0 bi bi-cart-check-fill"></i></span>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>`
-                    })
-        }
-    
-        productDetails()
+       
        
     </script>
+    <script src="./js/displayproducts.js"></script>
 </body>
 </html>
