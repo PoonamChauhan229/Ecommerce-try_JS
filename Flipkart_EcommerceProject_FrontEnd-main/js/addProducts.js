@@ -1,16 +1,17 @@
 
 function addProduct(){
-    var electonics_id=document.getElementById('electonics_id').value
-    var category_id=document.getElementById('category_id').value
+    var electonics_id=Number(document.getElementById('electonics_id').value)
+    var category_id=Number(document.getElementById('category_id').value)
+    var product_id=Number(document.getElementById('product_id').value)
     var product_name=document.getElementById('product_name').value
     var category=document.getElementById('category').value
     var image=document.getElementById('image').value
     var Color=document.getElementById('Color').value
     var Brand=document.getElementById('Brand').value
-    var Price=document.getElementById('Price').value
-    var quantity=document.getElementById('quantity').value
+    var Price=Number(document.getElementById('Price').value)
+    var quantity=Number(document.getElementById('quantity').value)
 
-    if(electonics_id!="" && category_id!=""&&
+    if(electonics_id!="" && category_id!=""&& product_id!=""&&
     product_name!="" && category!=""&&
     image!="" && Color!=""&&
     Brand!="" && Price!=""&&quantity!=""  
@@ -32,6 +33,7 @@ async function createProductsData(electonics_id,category_id, product_name,catego
     {
         "electonics_id":electonics_id,
         "category_id":category_id,
+        "product_id":product_id,
         "product_name":product_name,
         "category":category,
         "image":image,
